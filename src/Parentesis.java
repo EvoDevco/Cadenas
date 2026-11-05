@@ -13,6 +13,7 @@ public class Parentesis {
 
     public static Boolean esParentizada(String frase){
         List<Character> parejas = new ArrayList<>();
+
         parejas.add('S');
         boolean error = true;
         for (int posicion = 0; posicion<frase.length();posicion++){
